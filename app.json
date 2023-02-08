@@ -1,15 +1,14 @@
 {
   "expo": {
-    "name": "NativeProject",
-    "slug": "NativeProject",
+    "name": "Avengers",
+    "slug": "Avengers",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "icon": "https://i.pinimg.com/474x/0d/61/d1/0d61d1117f402c59fa65ddbad09bc658.jpg",
+    "userInterfaceStyle": "#efefef",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "image": "https://thumbs.gfycat.com/UnsungBreakableGreathornedowl-size_restricted.gif",
+      "backgroundColor": "#efefef"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -18,12 +17,24 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "splash": {
+        "image": "https://thumbs.gfycat.com/UnsungBreakableGreathornedowl-size_restricted.gif",
+
+        "backgroundColor": "#efefef",
+        "width": "30px"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#efefef",
+        "splash": {
+          "image": "https://thumbs.gfycat.com/UnsungBreakableGreathornedowl-size_restricted.gif",
+  
+          "backgroundColor": "#efefef",
+          "width": "30px"
+        }
       }
     },
     "web": {
