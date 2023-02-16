@@ -17,6 +17,8 @@ import Wanda from "../../assets/wanda.jpeg";
 import Quill from "../../assets/quill.jpg";
 import Walkiria from "../../assets/walkiria.webp";
 import Hulk from "../../assets/hulk.webp";
+import Falcao from "../../assets/falcao-negro.jpg";
+
 
 export const herois = [
   {
@@ -104,7 +106,7 @@ export const herois = [
     nomeDeHeroi: "Homem Formiga",
     idade: "30 anos",
     especie: "Terraquío",
-    historia: "O primeiro Homem-Formiga foi criado por Stan Lee, Jack Kirby e Larry Lieber. Ele fez sua estreia em 1962, nas páginas de Tales of Astonish #27. Hank Pym era um cientista que inventou a Partícula Pym, capaz de fazê-lo mudar de tamanho. Além disso, Pym utilizava um capacete capaz de controlar formigas.",
+    historia: "Dr. Hank Pym transforma um talentoso ladrão no herói Homem-Formiga. Ele quer impedir que seu antigo pupilo consiga replicar a fórmula da roupa que dá o poder do encolhimento, força sobre-humana e a capacidade de controlar um exército de formigas.",
     imagem: Formiga,
     estrelas: "★★★",
     frase: "Eu faço algumas coisas idiotas e as pessoas que eu mais amo pagam o preço.",
@@ -209,4 +211,15 @@ export const herois = [
     imagem: DeadPool,
     estrelas: "♥ ♥ ♥ ♥ ♥",
     frase: "Não para de estudar não criança, ou para... Eu parei e virei x-man",
-  }]
+  },
+  {
+    nome: "Sam Wilson",
+    nomeDeHeroi: "Falcão Negro",
+    idade: "53 anos",
+    especie: "Terraquío",
+    historia: "Quando Steve Rogers pediu ajuda ao veterano da Força Aérea Sam Wilson, Wilson imediatamente concordou. Ele vestiu o traje de voo que ele usou em combate para se tornar o Falcão, colocando-o em um caminho para se tornar um Vingador e, eventualmente, o Capitão América.",
+    imagem: Falcao,
+    estrelas: "★★★★",
+    frase: "A esquerda",
+  },
+]

@@ -21,13 +21,15 @@ const BoxTitle = styled(View)`
 const Logo = styled(Image)`
   width: 250;
   height: 150;
-  border-radius: 12px;
 `
 const Botao = styled(TouchableOpacity)`
   width: 300;
   height: 50;
   backgroundColor: #fff;
-  border-radius: 12px;
+  orderTopLeftRadius: 6;
+  borderBottomRightRadius: 40;
+  borderTopLeftRadius: 6;
+  borderTopLeftRadius: 40;
   align-items: center;
   justify-content: center;
 `

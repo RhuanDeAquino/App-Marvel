@@ -65,6 +65,7 @@ const BoxLogo = styled(View)`
   justify-content: center;
   position: relative;
   width: 100%;
+  border-top: 100 solid #d72629;
 `
 
 const Estrelas = styled(Text)`
@@ -88,8 +89,6 @@ const TextoHistoria = styled(Text)`
 const InfoCards = () => {
   const route = useRoute();
   const { item } = route.params;
-
-  console.log(item);
   return (
     <BoxContainer>
       <Container>
